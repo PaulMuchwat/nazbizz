@@ -73,7 +73,35 @@ input{
     height:100%;
     background-color: gray;
     margin: 0 auto;
-}*/.footer-wrapper{
+}*/     
+.wrapper {
+    width: 1170px;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+.box {
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+}
+.hero-fashion > .box {
+    width: 1170px;
+    height: 505px;
+    margin-bottom: 30px;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 238px;
+    grid-gap: 30px;
+}
+.tall-span {
+    grid-row: span 2;
+}
+.wide-span {
+    grid-column: span 2
+}
+.footer-wrapper{
     width: 1100px;
     margin: 0 auto;
 }
