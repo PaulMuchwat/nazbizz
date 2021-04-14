@@ -1,2 +1,2 @@
-# nazbizz
-University shopping website
+# nbizz
+
